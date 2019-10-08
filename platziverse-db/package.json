@@ -1,0 +1,27 @@
+{
+  "name": "platziverse-db",
+  "version": "1.0.0",
+  "description": "A simple IoT plataform - DB Module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alberth7/platziverse.git"
+  },
+  "author": "Alberth Apaza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alberth7/platziverse/issues"
+  },
+  "homepage": "https://github.com/alberth7/platziverse#readme",
+  "devDependencies": {
+    "standard": "^14.3.1"
+  },
+  "dependencies": {
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.19.4"
+  }
+}
